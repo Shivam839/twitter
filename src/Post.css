@@ -4,47 +4,63 @@
     border-bottom: 1px solid var(--twitter-background);
     padding-bottom: 10px;
 }
-.post__body{
-    flex:1;
+.post_body{
+    flex: 1;
     padding: 10px;
 }
-.post__body > img{
-    border-radius: 20px;
+.post_avatar{
+    padding: 20px;
 }
-.post__footer{
+.post_body img{
+    border-radius: 20px;
+    width: 100%;
+}
+.img{
+    height: 400px;
+    width: 400px;
+}
+.post_body img{
+    border-radius: 20px;
+    width: 100%;
+} 
+.post_footer{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
-.post__badge{
-    font-size: 14px !important;
+.post_badge{
+    font-size: 15px !important;
     color: var(--twitter-color);
 }
-.post__headerSpecial{
-    font-weight: 600;
-    font-size: 16px;
-    color:gray;
-}
-.post__headerText > h3{
+.post_headerText h3{
     font-size: 15px;
     margin-bottom: 5px;
 }
-.post__headerdescription{
+.post_headerSpecial{
+    font-weight: 600;
+    font-size: 12px;
+    color: gray;
+}
+.post_headerDescription{
     margin-bottom: 10px;
     font-size: 15px;
 }
-.post_avatar{
-    padding: 10px;
+.post_comments{
+    margin-top: 25px;
+    border: none !important;
+    /* background: gray ; */
+    /* color: gray; */
 }
-.like{
-    cursor: pointer;
-}
-.likeMain{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.likeMain > span{
-    color: var(--twitter-color);
-    
+.post_comments input{
+    border: none;
+    /* border-radiusx */
+}   
+.post_comments button{
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 900 !important;
+    border-radius: 30px !important;
+    margin-top: 20px !important;
+    margin-left: 90px;
 }
